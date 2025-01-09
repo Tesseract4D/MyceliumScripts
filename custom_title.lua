@@ -1,4 +1,5 @@
---Customize your game title.
+-- 自定义游戏标题
+-- Customize your game title.
 hookLib:registerLuaHook("custom title", function(mc)
     local title = "Your Title"
     luajava.bindClass("org.lwjgl.opengl.Display"):setTitle(title)
